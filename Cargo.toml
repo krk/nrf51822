@@ -1,0 +1,16 @@
+[package]
+name = "nrf51822"
+categories = ["embedded", "no-std"]
+version = "0.1.0"
+authors = ["krk <keremkat@gmail.com>"]
+description = "Device crate generated with svd2rust for nRF51822 chip."
+repository = "https://github.com/krk/nrf51822"
+readme = "README.md"
+keywords = ["arm", "cortex-m", "nordic", "nRF51822"]
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+bare-metal = "0.1.2"
+cortex-m = "0.4.3"
+cortex-m-rt = "0.4.0"
+vcell = "0.1.0"
