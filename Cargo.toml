@@ -1,13 +1,17 @@
 [package]
 name = "nrf51822"
 categories = ["embedded", "no-std"]
-version = "0.1.0"
+version = "0.1.1"
 authors = ["krk <keremkat@gmail.com>"]
 description = "Device crate generated with svd2rust for nRF51822 chip."
 repository = "https://github.com/krk/nrf51822"
 readme = "README.md"
-keywords = ["arm", "cortex-m", "nordic", "nRF51822"]
+keywords = ["arm", "cortex-m", "nordic", "nRF51822", "svd2rust"]
 license = "MIT OR Apache-2.0"
+
+[features]
+default = ["rt"]
+rt = []
 
 [dependencies]
 bare-metal = "0.1.2"
